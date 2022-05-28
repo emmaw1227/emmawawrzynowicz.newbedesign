@@ -1,0 +1,194 @@
+
+body{
+    max-height: 600px;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.mains{
+    background-color: #E53277;
+    width: 1175px;
+    height: 635px; 
+    margin-top: 50px;
+    margin-left: 0%;
+}
+
+h1{
+    font-size: 8em;
+    font-family: 'ITC Avant Garde Gothic Pro ', sans-serif; 
+    font-style:bold;
+    color:#ffff;
+    text-align:left;
+    line-height: 1px;
+    position: relative;
+    left:50px;
+}
+
+h2{
+    font-size: 7em;
+    font-family: 'ITC Avant Garde Gothic Pro ',sans-serif; 
+    font-style: bold;
+    color:#F8DC31;
+
+    line-height:0px;
+    top: 80px;
+    position:relative;
+}
+
+h3{
+    font-size:2em;
+    font-family:'ITC Avant Garde Gothic Pro ',sans-serif; 
+    font-style: bold;
+    font-weight:900;
+    text-decoration: line-through;
+    text-align:center;
+    color:black;
+    position:relative;
+   right: 100px;
+    transform: rotate(-90deg);
+transform-origin:60% 10%;
+-webkit-transform: rotate(-90deg); /* Safari and Chrome */
+-webkit-transform-origin:60% 10%; /* Safari and Chrome */
+position: relative;
+top: 100px;
+left: 125px;
+}
+
+
+p{
+    font-size: 12px;
+    font-family:'ITC Avant Garde Gothic Pro', 'Avantgarde', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    color:white;
+    line-height:15px;
+}
+
+
+.container {
+    min-height: 600px;
+    display: flex;
+}
+
+
+.mainphotos1{
+    width: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    right: 27%;
+
+}
+.mainphotos2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 27%;
+}
+.photo img{
+    width:135px;
+    border-radius: 50%;
+}
+.rectangle {
+    width: 600px;
+    height: 350px; 
+    background-image: url("polkadots.jpg");
+    position: absolute;
+    right: 40px;
+    top:125px;
+} 
+
+.mainrow1{
+    position:relative;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.mainrow2{
+    position: absolute;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: flex-start;
+}
+.maincolum1{
+    min-height: 600px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 145px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.maincolum2{
+    min-height: 600px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.maincolum3{
+    padding-left: 150px;
+    padding-right: 1%;
+    padding-top: 35%;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.maincolum4{
+    min-height: 600px;
+    position: relative;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+}
+.maincolum5{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.maincolum6{
+    width: 525px;
+    padding-left: 140px;
+    padding-top: 0px;
+}
+.maincolum7{
+    padding-top: 80px;
+    padding-left: 293px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.paragraph2{
+    position: relative;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+}
